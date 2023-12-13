@@ -1,42 +1,46 @@
 # Todo List - Java Spring Boot
 
-Um simples projetos de todolist do curso da Rocketseat explorando os meus primeiros passos com a linguagem java.
+Just a simple project of todolist from Rockectseat course, exploring my first steps with java programming language
 
-## Instruções de Instalação
+## Installation Steps:
 
-1. Configure o ambiente de desenvolvimento usando o arquivo Dockerfile
+1. Configure the development envinronm using the Dockerfile
 
 
-## Rotas
+## Routes
 ```
-POST  - http://localhost:8080/users/ (Cadastrar Usuarios)
-```
-```
-POST - http://localhost:8080/tasks/ (Adicionar tarefas)
+POST  - http://localhost:8080/users/ (Register User)
 ```
 ```
-GET - http://localhost:8080/tasks/ (Listar Tarefas)
+POST - http://localhost:8080/tasks/ (Add Task)
 ```
 ```
-PUT - http://localhost:8080/tasks/{id} (Atualizar uma tarefa)
+GET - http://localhost:8080/tasks/ (Show Tasks)
+```
+```
+PUT - http://localhost:8080/tasks/{id} (Update a Task)
 ```
 
-## Variaves:
-Cadastro de Usuario: 
+## Variables:
+User Resgistration: 
 ```
 name:
 username:
-password
+password:
 ```
 
-Cadastro de Tarefas:
+Task Registration:
 ```
 description:
 title:
 priority:
 startAt:
-endAt
+endAt:
 ```
+
+If you want to test this API without needing to configure your own development environment, just try out this link: https://todolist-44lb.onrender.com,
+
+Thank you, Hope to see you again!
 
 
 
