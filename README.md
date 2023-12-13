@@ -4,7 +4,7 @@ Just a simple project of todolist from Rockectseat course, exploring my first st
 
 ## Installation Steps:
 
-1. Configure the development envinronm using the Dockerfile
+1. Configure the development envinronm using the available Dockerfile in this repository.
 
 
 ## Routes
