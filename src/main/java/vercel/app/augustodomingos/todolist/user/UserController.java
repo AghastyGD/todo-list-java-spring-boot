@@ -12,10 +12,11 @@ import at.favre.lib.crypto.bcrypt.BCrypt;
 
 /**
  * Modificadores
- * public
- * private
- * protected
+ * Public
+ * Private
+ * Protected
  */
+
 @RestController
 @RequestMapping("/users")
 public class UserController {
@@ -36,7 +37,7 @@ public class UserController {
         var passwordHashred = BCrypt.withDefaults().hashToString(12, userModel.getPassword().toCharArray());
 
         userModel.setPassword(passwordHashred);
-
+        
         var userCreated = this.userRepository.save(userModel);
         return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
     }
